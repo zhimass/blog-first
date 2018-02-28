@@ -1,0 +1,264 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul,li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+input{
+	border: 0;
+}
+/*.clearfix{
+	clear: both;
+	overflow: hidden;
+}*/
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#bg-color{
+	background-color: #ffffff;
+	height: auto;
+	width: 100%;
+}
+.container{
+	height: auto;
+	width: 960px;
+	margin: auto;
+	border-radius: 10px;
+	position: relative;
+}
+.header{
+	height: 250px;
+	width: 100%;
+	background-color: black;
+}
+.header .bg{
+	width: 100%;
+	height: 200px;
+	background-image: url(../images/header2.jpg);
+}
+.bg span{
+	line-height: 200px;
+	margin-left: 40px;
+	color: #fff;
+	display: block;
+	font-size: 50px;
+	font-family: FZYaoti;
+}
+.header .menu{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(181,223,237);
+	box-shadow: 0 0 20px #fff;
+	z-index: 10;
+	position: relative;
+}
+.header-menu{
+	width: 800px;
+	height: 100%;
+	color: #fff;
+	line-height: 50px;
+	display: flex;
+	margin: auto;
+	position: relative;
+}
+.header-menu li{
+	margin-left: 30px;
+	cursor: pointer;
+	height: auto;
+}
+.header-menu a{
+	color: #fff;
+}
+.header-menu a:hover{
+	color: rgb(221,160,221);
+}
+.register{
+	position: absolute;
+	right: 0;
+}
+.header-menu .shuxian{
+	position: absolute;
+	right: 45px;
+	height: 50px;
+	background-color: #fff;
+	width: 1px;
+}
+.login{
+	position: absolute;
+	right: 60px;
+}
+.content{
+	background-color: rgb(181,223,237);
+	height: auto;
+	width: 100%;
+	text-align: center;
+	/*display: flex;
+	justify-content: space-between;*/
+}
+
+
+
+input,select,img{
+	vertical-align: middle;
+}
+label{
+	position: relative;
+	font-size: 12px;
+	color: rgb(77,77,77);
+	vertical-align: middle;
+	width: 100%;
+}
+input:focus,textarea:focus{
+	outline: none;
+}
+.btn{
+	border: none 0;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+form{
+	width: 960px;
+	height: 400px;
+	margin: auto;
+	padding: 50px;
+}
+form div{
+	overflow: hidden;;
+	clear: both;
+}
+form div label{
+	float: left;
+	clear: both;
+}
+p{
+	font-size: 12px;
+	color: rgb(77,77,77);
+}
+input{
+	padding:7px 10px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 3px;
+}
+.box{
+	line-height: 50px;
+}
+.reg-title{
+	color: #fff;
+	font-size: 40px;
+}
+.reg-name{
+	margin-top: 30px;
+}
+p i{
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	background-size: cover;
+}
+.msg{
+	position: absolute;
+	left: 700px;
+	top: 0;
+	display: none;
+}
+.ati{
+	background-image: url(../images/tishi.png);
+}
+.err{
+	background-image: url(../images/err.png);
+}
+.ok{
+	background-image: url(../images/ok.png);
+}
+.space{
+	width: 100px;
+	display: block;
+}
+
+.safe{
+	height: 30px;
+	line-height: 30px;
+	width: 490px;
+	display: none;
+}
+.word{
+	color: #fff;
+	height: auto;
+	width: auto;
+	color: red;
+}
+em{
+	display: block;
+	float: left;
+	margin: 10px;
+	height: 15px;
+	width: 55px;
+	border-radius: 2px;
+}
+.red{
+	background-color: red;
+}
+.orange{
+	background-color: orange;
+}
+.yellow{
+	background-color: yellow;
+}
+.green{
+	background-color: green;
+}
+.agree-button{
+	background-color: rgb(130,203,245);
+	padding: 5px 10px;
+	font-size: 15px;
+	color: #fff;
+	border: 0;
+	margin-top: 40px;
+	box-shadow: 0 0 20px #fff;
+}
+.bottom{
+	height: 70px;
+	width: 100%;
+	background-color: rgb(181,223,237);
+	line-height: 70px;
+	text-align: center;
+	box-shadow: 0 0 20px #fff;
+}
+h5{
+	color: #fff;
+}
+.name-count{
+	height: 20px;
+	width: 100px;
+}
+#count{
+	display: none;
+}
+.safe-box{
+	height: 30px;
+	width: 670px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

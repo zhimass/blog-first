@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex布局</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="bg-color">
+	<div class="container">
+		<div class="header">
+			<div class="bg"><span>我的博客</span></div>
+			<div class="menu">
+				<ul class="header-menu">
+					<li class="home"><a href="home.html">首页</a></li>
+					<li class="ziliao"><a href="##">个人资料</a></li>
+					<li class="riji"><a href="##">日记</a></li>
+					<li class="photo"><a href="##">相册</a></li>
+					<li class="music"><a href="##">音乐</a></li>
+					<li class="share"><a href="##">分享</a></li>
+					<li class="friend"><a href="friends.html">朋友</a></li>
+					<li class="login"><a href="##" onclick="alertLogin();">登录</a></li>
+					<li class="register"><a href="register.html">注册</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="column">
+				<div class="item-l ziliao">
+					<div class="zl-header"><span class="sm-header">个人资料</span></div>
+					<div class="xian"></div>
+					<div class="my-photo"></div>
+					<div class="name">陈XX</div>
+					<div class="xian"></div>
+					<div class="button"><button class="add">+加好友</button class="write"><button>写留言</button></div>
+					<div class="dengji-jifen"></div>
+				</div>
+				<div class="item-l haoyou">
+					<span class="sm-header">好友</span>
+					<div class="xian"></div>
+					<div class="m-friends">
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+						<div class="nine">
+							<div class="f-one f-photo"></div>
+							<div class="one-name">卡哇伊</div>
+						</div>
+					</div>
+				</div>
+				<div class="item-l liuyan">
+					<span class="sm-header">留言</span>
+					<div class="xian"></div>
+					<div class="write-words">
+						<div class="write-one">
+							<div class="writer">李XX</div>
+							<div class="date">2018/1/5</div>
+							<div class="clearfix"></div>
+							<div class="write-content">哈哈哈哈哈哈哈哈哈hahhahahhahaahahhaha</div>
+						</div>
+					</div>
+					<div class="xian"></div>
+					<div class="write-words">
+						<div class="write-one">
+							<div class="writer">刘XX</div>
+							<div class="date">2018/1/5</div>
+							<div class="clearfix"></div>
+							<div class="write-content">啦啦啦啦啦</div>
+						</div>
+					</div>
+					<div class="xian"></div>
+					<div class="write-words">
+						<div class="write-one">
+							<div class="writer">陈XX</div>
+							<div class="date">2018/1/5</div>
+							<div class="clearfix"></div>
+							<div class="write-content">啦啦啦啦啦</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="item-r">
+					<div class="r-top">
+						<div class="r-top-header">日记</div>
+						<div class="xian"></div>
+						<div class="lunbo">
+							<div class="lb-container" style="left: -720px;">
+								<img src="images/3.jpg" alt="图片" >
+								<img src="images/1.jpg" alt="图片">
+								<img src="images/2.jpg" alt="图片">
+								<img src="images/3.jpg" alt="图片">
+								<img src="images/1.jpg" alt="图片">	
+							</div>
+							<div class="arrow arr-left" style="display: none;">&lt;</div>
+							<div class="arrow arr-right" style="display: none;">&gt;</div>
+							<div class="dian-con">
+								<span index="1" class="dian checked"></span>
+								<span index="2" class="dian"></span>
+								<span index="3" class="dian"></span>
+							</div>
+						</div>
+					</div>
+					<div class="r-bottom">
+						<div class="title-one">
+							<span class="title">标题一XXX</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<span>(2018-01-05 &nbsp;&nbsp;&nbsp;&nbsp;08:50:20)</span>
+							<button class="zhuanzai"><img src="images/zhuanzai.png" alt="" width="15px" height="15px"> 转载</button>
+							<div class="write-diary">&nbsp;&nbsp;&nbsp;&nbsp;漂然月色，时光随风远逝，悄然又到雨季，花，依旧美；心，依旧静。月的柔情，夜懂；心的清澈，雨懂；你的深情，我懂。人生没有绝美，曾经习惯漂浮的你我，曾几何时，向往一种平实的安定，风雨共度，淡然在心，凡尘远路，彼此守护着心的旅程。沧桑不是自然，而是经历；幸福不是状态，而是感受。</div>
+							<div class="function">
+								<span class="yuedu">阅读(23)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="pinglun">评论(33)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="zzl">转载(67)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="shoucang">收藏(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+							</div>
+						</div>
+						<div class="xian"></div>
+						<div class="title-one">
+							<span class="title">标题一XXX</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<span>(2018-01-05 &nbsp;&nbsp;&nbsp;&nbsp;08:50:20)</span>
+							<button class="zhuanzai"><img src="images/zhuanzai.png" alt="" width="15px" height="15px"> 转载</button>
+							<div class="write-diary">&nbsp;&nbsp;&nbsp;&nbsp;漂然月色，时光随风远逝，悄然又到雨季，花，依旧美；心，依旧静。月的柔情，夜懂；心的清澈，雨懂；你的深情，我懂。人生没有绝美，曾经习惯漂浮的你我，曾几何时，向往一种平实的安定，风雨共度，淡然在心，凡尘远路，彼此守护着心的旅程。沧桑不是自然，而是经历；幸福不是状态，而是感受。</div>
+							<div class="function">
+								<span class="yuedu">阅读(23)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="pinglun">评论(33)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="zzl">转载(67)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="shoucang">收藏(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom"></div>
+	</div>
+	<div class="mask">
+		<div class="login-box">
+				<div class="close">X</div>
+				<div class="login-content">
+					<p class="login-title">博客登录</p>
+					<input type="text" name="" class="login-name" placeholder="手机号/邮箱"><br>
+					<input type="password" name="" class="login-psw" placeholder="密码"><br>
+					<button class="login-button">登 录</button>
+				</div>
+		</div>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/home.js"></script>
+</html>
